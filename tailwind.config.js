@@ -2,7 +2,15 @@
 module.exports = {
   content: ['./*.html'],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        sm: "480px",
+      },
+      fontFamily: {
+
+        ubuntu: ['Ubuntu', 'sans-serif']
+      }
+    },
   },
   plugins: [],
 }
