@@ -16,15 +16,15 @@
 
 <body class="font-ubuntu">
   <!-- into section -->
-  <div class="h-screen-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative">
+  <div class="h-screen-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden">
     <!-- navbar -->
-    <nav class="fixed w-full top-0 bg-white">
+    <nav class="fixed w-full top-0 bg-white z-10">
       <div class="container mx-auto py-5 flex items-center justify-between">
         <div class="flex items-center gap-2">
           <img class="w-8" src="./img/logo.png" alt="icon">
           <span class="text-2xl font-bold text-indigo-900">PortWind.</span>
         </div>
-        <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+        <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase ">
           <li class="hover:text-gray-500">
             <a href="#">homepage</a>
           </li>
@@ -70,11 +70,29 @@
     <!-- intro content -->
     <!-- image -->
     <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="./img/man.png" alt="man">
-
     <!-- circle -->
+    <div class="w-big h-big lg:block lg:bg-indigo-900 absolute -bottom-1/4 left-36 right-0 mx-auto rounded-full -z-10">
+    </div>
     <!-- animated text -->
+    <div
+      class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
+      <span class="text-grat-600">Freelance</span>
+      <p id="text" class="text-red-500"></p>
+    </div>
     <!-- texts -->
+    <div
+      class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 right-10 m-auto bg-white p-10 h-fit w-1/3">
+      <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm John</h1>
+      <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, eligendi
+        fugit
+        quisquam soluta
+        debitis
+        dolores minus odio accusantium placeat harum excepturi maiores, quae adipisci aliquid animi suscipit quia
+        laboriosam amet.</p>
+      <a class="bg-indigo-600 text-white text-xl w-fit px-3 py-2 rounded-md font-semibold" href="#contact">Hire Me</a>
+    </div>
   </div>
+  <script src="./autotyping.min.js"></script>
   <script src="./app.js"></script>
 </body>
 

@@ -9,6 +9,9 @@ module.exports = {
       screens: {
         sm: "480px",
       },
+      spacing: {
+        big: '48rem'
+      },
       fontFamily: {
         ubuntu: ['Ubuntu', 'sans-serif']
       }
