@@ -774,6 +774,10 @@ video {
   height: 0.25rem;
 }
 
+.h-1\/5 {
+  height: 20%;
+}
+
 .w-full {
   width: 100%;
 }
@@ -824,8 +828,20 @@ video {
   width: 1rem;
 }
 
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -1014,6 +1030,11 @@ video {
 .py-40 {
   padding-top: 10rem;
   padding-bottom: 10rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .text-center {
