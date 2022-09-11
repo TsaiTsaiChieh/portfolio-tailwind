@@ -1,5 +1,6 @@
 const hamburger = document.querySelector('#hamburger')
 const menu = document.querySelector('#menu')
+const hLinks = document.querySelectorAll('.hLink')
 
 hamburger.addEventListener("click", () => {
   menu.classList.toggle('hidden')
@@ -16,3 +17,10 @@ const exampleTyping = new AutoTyping('#text', exampleText, {
   waitBetweenWords: 500,
 });
 exampleTyping.start()
+
+
+hLinks.forEach(link => link.addEventListener('click', () => {
+  console.log('cook');
+  menu.classList.toggle('hidden')
+  hamburger.classList.toggle('bg-white')
+}))

@@ -29,16 +29,16 @@
             <a href="#">homepage</a>
           </li>
           <li class="hover:text-gray-500">
-            <a href="#">about me</a>
+            <a href="#about">about me</a>
           </li>
           <li class="hover:text-gray-500">
-            <a href="#">service</a>
+            <a href="#services">services</a>
           </li>
           <li class="hover:text-gray-500">
-            <a href="#">works</a>
+            <a href="#works">works</a>
           </li>
           <li class="hover:text-gray-500">
-            <a href="#">contact</a>
+            <a href="#contact">contact</a>
           </li>
         </ul>
         <img class="hidden md:block w-5 cursor-pointer" src="./img/moon.png" alt="moon">
@@ -51,19 +51,19 @@
       <ul id="menu"
         class="hidden bg-indigo-900 absolute top-0 left-0 text-white w-full text-center p-10 space-y-10 rounded-b-3xl">
         <li>
-          <a href="#">homepage</a>
+          <a class="hLink" href="#">homepage</a>
         </li>
         <li>
-          <a href="#">about me</a>
+          <a class="hLink" href="#about">about me</a>
         </li>
         <li>
-          <a href="#">service</a>
+          <a class="hLink" href="#services">services</a>
         </li>
         <li>
-          <a href="#">works</a>
+          <a class="hLink" href="#works">works</a>
         </li>
         <li>
-          <a href="#">contact</a>
+          <a class="hLink" href="#contact">contact</a>
         </li>
       </ul>
     </nav>
@@ -93,8 +93,8 @@
     </div>
   </div>
   <!-- about -->
-  <div class="p-10">
-    <div class="container mx-auto flex flex-col-reverse lg:flex-row items-center py-40 px-20 gap-20">
+  <div id="about" class="p-10">
+    <div class="container mx-auto flex flex-col-reverse lg:flex-row items-center p-20 gap-20">
       <!-- left -->
       <div class="relative">
         <img class="h-1/4 absolute top-0 left-0 -z-10" src="./img/dots.png" alt="dots">
@@ -128,7 +128,7 @@
       </div>
     </div>
     <!-- services -->
-    <div>
+    <div id="services" class="py-20">
       <div class="container mx-auto">
         <!-- top -->
         <div class="flex flex-col items-center gap-3">
@@ -208,7 +208,7 @@
       </div>
     </div>
     <!-- works -->
-    <div class="py-20">
+    <div id="works" class="py-20">
       <div class="container mx-auto">
         <!-- top -->
         <div class="flex flex-col items-center gap-3">
@@ -261,7 +261,7 @@
     </div>
     <!-- contact -->
     <div>
-      <div class="container mx-auto"></div>
+      <div id="contact" class="container mx-auto"></div>
       <!-- top -->
       <div class="flex flex-col items-center gap-3">
         <h1 class="text-indigo-600 font-bold">CONTACT</h1>
